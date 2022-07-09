@@ -14,14 +14,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace ShopApp
+namespace ShopApp.Views
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Logika interakcji dla klasy MenuView.xaml
     /// </summary>
-    public partial class MainWindow : MvxWindow
+    public partial class MenuView : MvxWpfView
     {
-        public MainWindow()
+        public MenuView()
         {
             InitializeComponent();
         }
