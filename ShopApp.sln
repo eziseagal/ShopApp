@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopApp", "ShopApp\ShopApp.csproj", "{B074D098-44BC-441B-9F98-56167D7692B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "Library\Library.csproj", "{6C2AC883-90B3-4249-B05D-DA108F0A8FBA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B074D098-44BC-441B-9F98-56167D7692B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B074D098-44BC-441B-9F98-56167D7692B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B074D098-44BC-441B-9F98-56167D7692B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C2AC883-90B3-4249-B05D-DA108F0A8FBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C2AC883-90B3-4249-B05D-DA108F0A8FBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C2AC883-90B3-4249-B05D-DA108F0A8FBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C2AC883-90B3-4249-B05D-DA108F0A8FBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
