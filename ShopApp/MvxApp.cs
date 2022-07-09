@@ -12,6 +12,9 @@ namespace ShopApp
         {
             Mvx.IoCProvider.RegisterType<ShopContext>();
 
+            var db = Mvx.IoCProvider.Create<ShopContext>();
+            db.Database.EnsureCreated();
+
             RegisterAppStart<MenuViewModel>();
         }
     }
